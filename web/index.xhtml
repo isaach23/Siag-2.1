@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Facelet Title</title>
+
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+            <!-- Compiled and minified CSS -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css"/>
+
+                <!-- Compiled and minified JavaScript -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+
+    </h:head>
+    <h:body>
+        Hello from Facelets
+        
+        <br />
+        <h:link outcome="welcomePrimefaces" value="Primefaces welcome page" />
+        <br />
+        <h:link outcome="login" value="Inicio de Sesion" />
+        <br />
+        <h:link outcome="programaLab" value="Programar Laboratorio" />
+        <br/>
+        <h:link outcome="generarReportes" value="Reportes de Laboratorios"/>
+        <br/>
+        <h:link outcome="registrarDeudor" value="Deudor"/>
+        <br/>
+        <h:link outcome="cancelarDeuda" value="Cancelar Deuda"/>
+        <br/>
+        <h:link outcome="solicitarInsumos" value="Solicitud de Insumos"/>
+        <br/>
+        <h:link outcome="solicitarLaboratorios" value="Solicitud de laboratorios"/>
+        <br/>
+        <h:link outcome="conogramaLaboratorios" value="Conograma de Laboratorios"/>
+        <!-- NUEVAS PANTALLAS-->
+        <br/>
+         Hello Pantallas Nuevas
+        <br />
+        <h:link outcome="vistas/cancelarDeudorAlmacen" value="Cancelar deudor almacen  " />
+        <br />
+        <h:link outcome="vistas/cancelarDeudorDirreccion" value="Cancelar deudor Dirreccion  " />
+        <br />
+        <h:link outcome="vistas/conogramaAlmacen" value="Conograma Almacen " />
+        <br />
+        <h:link outcome="vistas/conogramaDirreccion" value="Conograma Dirreccion  " />
+        <br />
+        <h:link outcome="vistas/registrarDeudorAlmacen" value="Registar el Deudor  " />
+        <br />
+        <h:link outcome="vistas/solicitarInsumo" value="Solicitar Insumos DOCENTES Y ESTUDIANTES  " />
+        <br />
+        <h:link outcome="vistas/solicitarLaboratorio" value="Solicitar Laboratorios DOCENTES  " />
+        <br />
+        <h:link outcome="vistas/solicitudesAlmacen" value="Revisar todas las solicitudes  " />
+        <br />
+        <h:link outcome="vistas/registrarOk" value="vistas de pruebas REG  " />
+        <br />
+        <h:link outcome="vistas/tablePrueba" value="Vstas de prueva TABLA " />
+        <br />
+        Aqui termina
+        <br />
+        <!-- FIN DE LAS NUEVAS PANTALLAS-->
+            <h:link outcome="/laboratorio/List" value="Ver Todos los Laboratorios"/>
+        <br />
+        <h:link outcome="/material/List" value="Ver Todos los Materiales"/>
+        <br />
+        <h:link outcome="/practica/List" value="Ver Todas las practicas"/>
+        <br />
+        <h:link outcome="/programa/List" value="Ver Todos los programas"/>
+        <br />
+        <h:link outcome="/reactivo/List" value="Ver Todos los reactivos"/>
+        <br />
+        <h:link outcome="/reservaInsumo/List" value="Ver Todos las reservas de insumos"/>
+        <br />
+        <h:link outcome="/reservaLab/List" value="Ver Todos las reservas de laboratorio"/>
+        <br />
+        <h:link outcome="/rol/List" value="Ver Todos los Roles"/>
+        <br />
+        <h:link outcome="/usuario/List" value="Ver Todos los Usuarios"/>
+    </h:body>
+</html>
+
