@@ -85,7 +85,7 @@ public class loginControler implements Serializable {
             Usuario us=(Usuario) sesion.getExternalContext().getSessionMap().get("usuario");
             
             if (us==null) {
-                sesion.getExternalContext().redirect("permisos.html");
+                sesion.getExternalContext().redirect("../permisos.html");
             }
         } catch (Exception e) {
         }
